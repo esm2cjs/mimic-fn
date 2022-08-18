@@ -1,5 +1,5 @@
 import test from 'ava';
-import mimicFunction from './index.js';
+import mimicFunction from './esm/index.js';
 
 const foo = function (bar) {
 	return bar;
